@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/mySQLDB"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="java"
+	password="java"
+	driverClassName="com.mysql.jdbc.Driver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	url="jdbc:mysql://118.131.179.138:3306/java2d"
+	maxActive="500"
+	maxIdle="100"/>
+	
+	
+	<Resource name="jdbc/myHOME"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="java"
+	password="java"
+	driverClassName="com.mysql.jdbc.Driver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	url="jdbc:mysql://118.131.179.138:3306/java2d"
+	maxActive="500"
+	maxIdle="100"/>
+	</Context>
